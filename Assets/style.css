@@ -33,11 +33,6 @@ nav a {
     color: #B0E0E3;
 }
 
-main {
-    padding-left: 150px;
-    padding-right: 100px;
-}
-
 h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #343C4A;
@@ -66,6 +61,7 @@ h1 {
 .about_me {
     display: flex;
     flex-direction: row;
+    padding-left: 100px;
 }
 
 .about_me h1 {
@@ -90,6 +86,7 @@ h1 {
 .work {
     display: flex;
     flex-direction: row;
+    padding-left: 100px;
 }
 
 .work h1 {
@@ -131,7 +128,6 @@ h1 {
     position: relative;
 }
   
-  /* Bottom right text */
 .text-block {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 26px;
@@ -144,7 +140,7 @@ h1 {
 }
 
 .grid {
-    max-width: 1000px;
+    max-width: 100;
     height: 700px;
     margin: 0 auto;
     padding-left: 20px;
@@ -157,7 +153,7 @@ h1 {
 .image1 {
     background-color: lightgray;
     border: 5px solid #B0E0E3;
-    width: 1000px;
+    width: 1500px;
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1;
@@ -208,6 +204,7 @@ h1 {
 .contactMe {
     display: flex;
     flex-direction: row;
+    padding-left: 55px;
 }
 
 .contactMe h1 {
