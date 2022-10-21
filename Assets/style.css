@@ -66,16 +66,25 @@ h1 {
 #aboutMePara {
     position: relative;
     left: 20px;
-    width: 1400px;
+    width: 1094px;
     height: auto;
 }
 
 #aboutMePara p {
     font-family: 'Oxygen', sans-serif;
     color: #0D0D0D;
-    font-size: 18px;
+    font-size: 20px;
     text-align: justify;
     padding: 20px 20px;
+}
+
+#profilePic {
+    position: relative;
+    left: 20px;
+    height: auto;
+    background-color: #595959;
+    border: 5px solid #595959;
+
 }
 
 #contactLinks {
