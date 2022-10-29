@@ -378,7 +378,8 @@ nav a {
         padding: 20px 0px 20px 0px;
     }
 
-    .headings {
+    .headings 
+    {
         position: static;
         width: 400px;
         height: auto;
@@ -421,8 +422,9 @@ nav a {
 
 @media screen and (max-width: 1010px) {
 
-header h1 {
-    font-size: 28px;
+    header h1 {
+        font-size: 28px;
+    }
 }
 
 @media screen and (max-width: 600px) {
