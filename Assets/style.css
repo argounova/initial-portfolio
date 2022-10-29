@@ -207,7 +207,7 @@ nav a {
 }
 
 .subtitle img {
-    height: 180px;
+    height: 140px;
     width: 100;
     padding-bottom: 32px;
 }
@@ -358,15 +358,6 @@ nav a {
         height: fit-content;
     }
 
-    #nameHeading {
-        width: 200px;
-        height: fit-content;
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        background-color: #595959;
-    }
-
     header h1 {
         font-family: 'Raleway', sans-serif;
         font-weight: 600;
@@ -377,6 +368,10 @@ nav a {
     #contactFooter {
         flex-direction: column;
         align-items: flex-start;
+    }
+
+    .subtitle img {
+        height: 120px;
     }
 
     .grid {
@@ -424,9 +419,24 @@ nav a {
     }
 }
 
+@media screen and (max-width: 1010px) {
+
+header h1 {
+    font-size: 28px;
+}
+
 @media screen and (max-width: 600px) {
     footer h1 {
         text-align: center;
+    }
+
+    #nameHeading {
+        min-width: 200px;
+        height: fit-content;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: #595959;
     }
     #headingsContact {
         min-width: 100%;
@@ -453,5 +463,53 @@ nav a {
     .text-block {
         right: 0px;
     }
+
+    .headings {
+        min-width: 100%;
+        border-right: none;
+        border-bottom: 4px solid #262626;
+        padding: 20px 0px;
+    }
+
+    .headings h1 {
+        text-align: center;
+    }
+
+    #navigationLinks ul {
+        padding-right: 0px;
+    }
+
+    #navigationLinks ul li {
+        padding: 10px;
+    }
     
+}
+
+@media screen and (max-width: 530px) {
+    header {
+        flex-direction: column;
+    }
+
+    #nameHeading {
+        width: 100%;
+        justify-content: center;
+    }
+
+    #navigationLinks {
+        justify-content: center;
+    }
+    
+}
+
+@media screen and (max-width: 400px) {  
+    .subtitle img {
+        height: 60px;
+        padding-bottom: 0px;
+    }
+      
+    .text-block {
+        font-size: 12px;
+        bottom: 10px;
+        right: 0px;
+    }
 }
