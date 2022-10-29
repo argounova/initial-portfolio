@@ -193,7 +193,7 @@ nav a {
     padding: 20px 20px 0px 0px;
 }
 
-.nameHeading {
+#nameHeading {
     width: 400px;
     height: 50px;
     display: flex;
@@ -350,6 +350,35 @@ nav a {
         flex-direction: column;
     }
 
+    header {
+        height: fit-content;
+    }
+
+    footer {
+        height: fit-content;
+    }
+
+    #nameHeading {
+        width: 200px;
+        height: fit-content;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        background-color: #595959;
+    }
+
+    header h1 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+        font-size: 100;
+        padding: 0px 10px;
+    }
+
+    #contactFooter {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
     .grid {
         padding: 20px 0px 20px 0px;
     }
@@ -365,15 +394,21 @@ nav a {
 
     #headingsContact {
         position: static;
-        width: fit-content;
+        width: 400px;
         height: auto;
-        border-right: 4px solid #595959;
-        padding: 20px 20px 0px 100px;
+        border-right: none;
+        border-bottom: 4px solid #595959;
+        padding: 0px 0px 20px 20px;
     }
 
-    #divNavContact {
+    #contactLinks {
         position: static;
         height: auto;
+        padding-top: 20px;
+    }
+
+    #contactLinks ul {
+        flex-wrap: wrap;
     }
 
     #gridImages {
