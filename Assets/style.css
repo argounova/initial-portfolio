@@ -407,10 +407,6 @@ nav a {
         padding-top: 20px;
     }
 
-    #contactLinks ul {
-        flex-wrap: wrap;
-    }
-
     #gridImages {
         position: static;
         padding: 0px 50px;
@@ -428,7 +424,34 @@ nav a {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
+    footer h1 {
+        text-align: center;
+    }
+    #headingsContact {
+        min-width: 100%;
+    }
+    #contactLinks {
+        justify-content: center;
+        align-items: center; 
+    }
     
+    #contactLinks ul {
+        flex-direction: column;
+        height: fit-content;
+        align-items: center;
+    }
+
+    #contactLinks li {
+        padding: 20px 0px;   
+    }
+
+    #gridImages {
+        padding: 0px 15px;
+    }
+
+    .text-block {
+        right: 0px;
+    }
     
 }
