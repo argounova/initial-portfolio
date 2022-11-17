@@ -208,7 +208,7 @@ nav a {
 
 .subtitle img {
     height: 140px;
-    width: 100;
+    width: 100%;
     padding-bottom: 32px;
 }
   
@@ -221,6 +221,24 @@ nav a {
     background-color: rgba(13, 13, 13, 0.55);
     color: rgba(217, 217, 217, 0.75);
     padding: 8px
+}
+
+.gitRepo {
+    z-index: 5;
+    display: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 40px;
+    position: relative;
+    bottom: 75px;
+    left: 25px;
+    background-color: rgba(217, 217, 217, 0.75);
+    width: fit-content;
+    text-decoration: none;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 3px;
 }
 
 .grid {
@@ -245,7 +263,7 @@ nav a {
     display: none;
     background-color: #595959;
     border: 5px solid #A6A6A6;
-    width: 100;
+    width: 100%;
     height: fit-content;
     grid-column-start: 1;
     grid-column-end: 3;
@@ -257,7 +275,7 @@ nav a {
     display: block;
     background-color: #595959;
     border: 5px solid #A6A6A6;
-    width: 100;
+    width: 100%;
     height: fit-content;
     grid-column-start: 1;
     grid-column-end: 3;
@@ -269,7 +287,7 @@ nav a {
     display: none;
     background-color: whitesmoke;
     border: 5px solid #A6A6A6;
-    width: 100;
+    width: 100%;
     grid-column-start: 1;
     grid-column-end: 1;
     grid-row-start: 2;
@@ -280,7 +298,7 @@ nav a {
     display: block;
     background-color: whitesmoke;
     border: 5px solid #A6A6A6;
-    width: 100;
+    width: 100%;
     grid-column-start: 1;
     grid-column-end: 1;
     grid-row-start: 2;
@@ -291,7 +309,7 @@ nav a {
     display: none;
     background-color: white;
     border: 5px solid #A6A6A6;
-    width: 100;
+    width: 100%;
     grid-column-start: 2;
     grid-column-end: 2;
     grid-row-start: 2;
@@ -302,7 +320,7 @@ nav a {
     display: block;
     background-color: white;
     border: 5px solid #A6A6A6;
-    width: 100;
+    width: 100%;
     grid-column-start: 2;
     grid-column-end: 2;
     grid-row-start: 2;
@@ -313,7 +331,7 @@ nav a {
     display: none;
     background-color: #595959;
     border: 5px solid #A6A6A6;
-    width: 100;
+    width: 100%;
     height: fit-content;
     grid-column-start: 1;
     grid-column-end: 3;
@@ -325,7 +343,7 @@ nav a {
     display: block;
     background-color: #595959;
     border: 5px solid #A6A6A6;
-    width: 100;
+    width: 100%;
     height: fit-content;
     grid-column-start: 1;
     grid-column-end: 3;
@@ -361,7 +379,7 @@ nav a {
     header h1 {
         font-family: 'Raleway', sans-serif;
         font-weight: 600;
-        font-size: 100;
+        font-size: 100px;
         padding: 0px 10px;
     }
 
