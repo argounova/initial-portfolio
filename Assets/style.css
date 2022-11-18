@@ -9,7 +9,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: #D9D9D9;
+    background: linear-gradient(90deg, rgba(166,166,166,1) 0%, rgba(217,217,217,1) 15%, rgba(217,217,217,1) 85%, rgba(166,166,166,1) 100%);
 }
 
 header {
