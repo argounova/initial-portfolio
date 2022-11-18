@@ -6,8 +6,8 @@ $('#image1b').on('mouseenter', function(){
     $('#image1a').toggle();
     $('#image1a').css('border','none');
     $('#image1a').css('box-shadow','5px 5px 5px #AC82B8');
-    $('#gitRepo1a').show();
 });
+
 $('#image1a').on('mouseleave', function(){
     $('#image1a').toggle();
     $('#image1b').toggle();

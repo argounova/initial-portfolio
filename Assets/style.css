@@ -224,21 +224,20 @@ nav a {
 }
 
 .gitRepo {
-    z-index: 5;
-    display: none;
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
     font-size: 40px;
-    line-height: 40px;
-    position: relative;
-    bottom: 75px;
-    left: 25px;
-    background-color: rgba(217, 217, 217, 0.75);
+    position: absolute;
+    bottom: 75%;
+    left: 20px;
+    background-color: rgba(217, 217, 217, 0.9);
+    height: 80px;
+    line-height: 80px;
     width: fit-content;
-    text-decoration: none;
     text-decoration-line: underline;
     text-decoration-style: solid;
     text-decoration-thickness: 3px;
+    text-underline-offset: .25em;
 }
 
 .grid {
