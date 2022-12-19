@@ -46,5 +46,16 @@ $('#image4a').on('mouseleave', function(){
     $('#image4b').toggle();
 });
 
+$('#image5b').on('mouseenter', function(){
+    $('#image5b').toggle();
+    $('#image5a').toggle();
+    $('#image5a').css('border','none');
+    $('#image5a').css('box-shadow','5px 5px 5px #AC82B8');
+});
+$('#image5a').on('mouseleave', function(){
+    $('#image5a').toggle();
+    $('#image5b').toggle();
+});
+
 
 });
