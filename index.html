@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Craig Putzstuck | Web Developer</title>
-    <link rel="stylesheet" type="text/css" href="Assets/reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/reset.css">
     <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="Assets/style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/style.css">
 </head>
 
 <body>
@@ -25,31 +25,31 @@
                 <h1 class="modal-title fs-5" id="contactModalLabel">Contact Me</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-        <div class="modal-body">
-            <form class="form contactCard" id="contact-form">
-                <input type="hidden" name="contact_number">
-                <input
-                class="form-control"
-                name="user_name"
-                type="text"
-                placeholder="Name"
-                >
-                <input
-                class="form-control"
-                name="user_email"
-                type="email"
-                placeholder="Email"
-                >
-                <textarea
-                class="form-control"
-                name="message"
-                type="text"
-                placeholder="Message"
-                rows="5"
-                ></textarea>
-                <button type="submit" value="Send" class="btn btn-dark" id="formSubmit" style="margin-top: 25px;">Submit</button>
-            </form>
-        </div>
+            <div class="modal-body">
+                <form class="form contactCard" id="contact-form">
+                    <input type="hidden" name="contact_number">
+                    <input
+                    class="form-control"
+                    name="user_name"
+                    type="text"
+                    placeholder="Name"
+                    >
+                    <input
+                    class="form-control"
+                    name="user_email"
+                    type="email"
+                    placeholder="Email"
+                    >
+                    <textarea
+                    class="form-control"
+                    name="message"
+                    type="text"
+                    placeholder="Message"
+                    rows="5"
+                    ></textarea>
+                    <button type="submit" value="Send" class="btn btn-dark" id="formSubmit" style="margin-top: 25px;">Submit</button>
+                </form>
+            </div>
         </div>
     </div>
 </div>
@@ -103,14 +103,14 @@
                 <li><a href="#about-me">About</a></li>
                 <li><a href="#work">Work</a></li>
                 <li><a href="" data-bs-toggle="modal" data-bs-target="#contactModal">Contact</a></li>
-                <li><a href="/initial-portfolio/resume">Resume</a></li>
+                <li><a href="./resume.html">Resume</a></li>
             </ul>
         </nav>
     </div>
 </header>
 
 <div class="subtitle">
-    <img src="Assets/congress-avenue-bridge-austin-texas.jpeg" alt="congress avenue bridge downtown austin texas"/>
+    <img src="./assets/images/congress-avenue-bridge-austin-texas.jpeg" alt="congress avenue bridge downtown austin texas"/>
     <div class="text-block">
         <h2>“That's not the point. The point is, who will stop me?” - Ayn Rand</h2>
     </div>
@@ -124,10 +124,13 @@
         <div id="aboutMePara">
             <div style="display: flex; flex-direction: row; padding-right: 20px;">
                 <p>
-                    Welcome and thanks for stopping by! Here you will find examples of my most recent work, but first, allow me to introduce myself. I am a full stack JavaScript web developer and simply put, I build web applications. Currently enrolled in an in-depth MERN bootcamp at the University of Central Florida, I've been supremely focused on advancing my understanding of everything from HTML and CSS to MongoDB, Apollo and mySQL.
+                Welcome and thanks for stopping by! Here you will find examples of my most recent work, but first, allow me to introduce myself. I am a full stack JavaScript web developer and simply put, I build web applications. Recently graduated from an in-depth MERN bootcamp at the University of Central Florida, I've been supremely focused on advancing my understanding of everything from HTML and CSS to MongoDB, mySQL, React and Express/Node.js.
                 </p>
-                <img style="margin-top: 20px;" id="profilePic" src="Assets/bw-self.jpg" alt="craig-putzstuck-profile-picture">
+                <img style="margin-top: 20px;" id="profilePic" src="./assets/images/bw-self.jpg" alt="craig-putzstuck-profile-picture">
             </div>
+            <p>
+            Originally from Colorado, I currently live off the western coast of Florida about an hour north of Tampa Bay. My partner and I enjoy exploring Florida, cooking and spending time with our pets. When I'm not in front of the computer, you can typically find me in the garage tinkering with one of my cars. I have a passion for motorsports and enjoy NASA track days at Sebring as often as time allows.
+            </p>
             <p>
             Cars and computers go hand in hand these days and in the not-so-distant-future, cars <span style="font-style: italic;">will be</span> computers.  As a developer with a wealth of automotive knowledge, I seek to position myself at the forefront of such an intersection.  I hope to work with innovative, free-thinking, dedicated and diverse individuals who hold progress and global awareness as some of their core values.  Ready to get started?  I'd love to hear from you.
             </p>                               
@@ -142,53 +145,53 @@
             <div class="grid">
                 <div id="image1a">
                     <a href="https://outta-touch.herokuapp.com/" target="_blank">
-                    <img src="Assets/outta-touch-app.jpg" alt="outta touch app"></a>
+                    <img src="./assets/images/outta-touch-app.jpg" alt="outta touch app"></a>
                     <div class="gitRepo" style="bottom: 80%; left: 20px;">
                         <h2><a href="https://github.com/argounova/outta-touch" target="_blank">GitHub Repository</a></h2>
                     </div>
                 </div>
                 <div id="image1b">
-                    <img src="Assets/bw-outta-touch-app.jpg" alt="black and white outta touch app">
+                    <img src="./assets/images/bw-outta-touch-app.jpg" alt="black and white outta touch app">
                 </div>
                 <div id="image2a">
                     <a href="https://peaceful-escarpment-11973.herokuapp.com/" target="_blank">
-                    <img src="Assets/mtg-project-two-screenshot.jpg" alt="magic: the gathering application screen shot"></a>
+                    <img src="./assets/images/mtg-project-two-screenshot.jpg" alt="magic: the gathering application screen shot"></a>
                     <div class="gitRepo" style="bottom: 55%; left: 20px;">
                         <h2><a href="https://github.com/HammontreeWebDev/MTGpp" target="_blank">GitHub Repository</a></h2>
                     </div>
                 </div>
                 <div id="image2b">
-                    <img src="Assets/bw-mtg-project-two.jpg" alt="black and white magic: the gathering application screen shot">
+                    <img src="./assets/images/bw-mtg-project-two.jpg" alt="black and white magic: the gathering application screen shot">
                 </div>
                 <div id="image3a">
                     <a href="https://argounova.github.io/password-generator/" target="_blank">
-                    <img src="Assets/password-generator-screenshot.jpg" alt="password-generator-screenshot"></a>
+                    <img src="./assets/images/password-generator-screenshot.jpg" alt="password-generator-screenshot"></a>
                     <div class="gitRepo" style="bottom: 30%; left: 20px;">
                         <h2><a href="https://github.com/argounova/password-generator" target="_blank">GitHub Repository</a></h2>
                     </div>
                 </div>
                 <div id="image3b">
-                    <img src="Assets/bw-password-generator.jpg" alt="password-generator-screenshot">
+                    <img src="./assets/images/bw-password-generator.jpg" alt="password-generator-screenshot">
                 </div>
                 <div id="image4a">
                     <a href="https://argounova.github.io/day-planner/" target="_blank">
-                    <img src="Assets/work-day-scheduler-screenshot.jpg" alt="work-day-scheduler-screenshot"></a>
+                    <img src="./assets/images/work-day-scheduler-screenshot.jpg" alt="work-day-scheduler-screenshot"></a>
                     <div class="gitRepo" style="bottom: 30%; left: 51%px;">
                         <h2><a href="https://github.com/argounova/day-planner" target="_blank">GitHub Repository</a></h2>
                     </div>
                 </div>
                 <div id="image4b">
-                    <img src="Assets/bw-workday-scheduler.jpg" alt="work-day-scheduler-screenshot">
+                    <img src="./assets/images/bw-workday-scheduler.jpg" alt="work-day-scheduler-screenshot">
                 </div>
                 <div id="image5a">
                     <a href="https://argounova.github.io/code-quiz/" target="_blank">
-                    <img src="Assets/coding-quiz-screenshot.jpg" alt="coding-quiz-screenshot"></a>
+                    <img src="./assets/images/coding-quiz-screenshot.jpg" alt="coding-quiz-screenshot"></a>
                     <div class="gitRepo" style="bottom: 5%; left: 20px;">
                         <h2><a href="https://github.com/argounova/code-quiz" target="_blank">GitHub Repository</a></h2>
                     </div>
                 </div>
                 <div id="image5b">
-                    <img src="Assets/bw-coding-quiz.jpg" alt="coding-quiz-screenshot">
+                    <img src="./assets/images/bw-coding-quiz.jpg" alt="coding-quiz-screenshot">
                 </div>
             </div>
         </div>
@@ -218,6 +221,6 @@
 <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
-<script src="script.js"></script>
+<script src="index.js"></script>
 </body>
 </html>
