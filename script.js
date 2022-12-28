@@ -57,5 +57,21 @@ $('#image5a').on('mouseleave', function(){
     $('#image5b').toggle();
 });
 
+function formSubmit(e) {
+  e.preventDefault();
+  emailjs.init('ZElOBNy_cU2ZofiP0');
+  console.log(this);
+  this.contact_number.value = Math.random() * 100000 | 0;
+  emailjs.sendForm('service_peaz7nq', 'contact_formPasswordGen', this)
+    .then(function(response) {
+      $('#sendFormSucceed').modal('show');
+      console.log('Email sent', response.status, response.text);
+    }, function(error) {
+      $('sendFormFail').modal('show');
+      console.log('Email failed to send...', error);
+    });
+}
+
+$('#formSubmit').on('click', formSubmit);
 
 });

@@ -47,120 +47,120 @@
                 placeholder="Message"
                 rows="5"
                 ></textarea>
-                <button type="submit" value="Send" class="btn btn-primary" id="contactSubmit" style="margin-top: 25px;">Submit</button>
+                <button type="submit" value="Send" class="btn btn-primary" id="formSubmit" style="margin-top: 25px;">Submit</button>
             </form>
         </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
             </div>
         </div>
     </div>
 </div>
 
 
-    <header>
-            <div id="nameHeading">
-                <h1><a href="index.html">Craig Putzstuck</a></h1>
-            </div>
-            <div id="navigationLinks">
-                <nav>
-                    <ul>
-                        <li><a href="#about-me">About</a></li>
-                        <li><a href="#work">Work</a></li>
-                        <li><a href="#contact-me">Contact</a></li>
-                        <li><a href="/initial-portfolio/resume">Resume</a></li>
-                    </ul>
-                </nav>
-            </div>
-    </header>
-
-    <div class="subtitle">
-        <img src="Assets/congress-avenue-bridge-austin-texas.jpeg" alt="congress avenue bridge downtown austin texas"/>
-        <div class="text-block">
-            <h2>“That's not the point. The point is, who will stop me?” - Ayn Rand</h2>
-        </div>
+<header>
+    <div id="nameHeading">
+        <h1><a href="index.html">Craig Putzstuck</a></h1>
     </div>
+    <div id="navigationLinks">
+        <nav>
+            <ul>
+                <li><a href="#about-me">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="" data-bs-toggle="modal" data-bs-target="#contactModal">Contact</a></li>
+                <li><a href="/initial-portfolio/resume">Resume</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
 
-    <main>
-        <section style="padding-top: 30px;">
-            <div class="headings">
-                <h1 id="about-me">About</h1>
-            </div>
-            <div id="aboutMePara">
-                <div style="display: flex; flex-direction: row; padding-right: 20px;">
-                    <p>
-                        Welcome and thanks for stopping by! Here you will find examples of my most recent work, but first, allow me to introduce myself. I am a full stack JavaScript web developer and simply put, I build web applications. Currently enrolled in an in-depth MERN bootcamp at the University of Central Florida, I've been supremely focused on advancing my understanding of everything from HTML and CSS to MongoDB, Apollo and mySQL.
-                    </p>
-                    <img style="margin-top: 20px;" id="profilePic" src="Assets/bw-self.jpg" alt="craig-putzstuck-profile-picture">
-                </div>
+<div class="subtitle">
+    <img src="Assets/congress-avenue-bridge-austin-texas.jpeg" alt="congress avenue bridge downtown austin texas"/>
+    <div class="text-block">
+        <h2>“That's not the point. The point is, who will stop me?” - Ayn Rand</h2>
+    </div>
+</div>
+
+<main>
+    <section style="padding-top: 30px;">
+        <div class="headings">
+            <h1 id="about-me">About</h1>
+        </div>
+        <div id="aboutMePara">
+            <div style="display: flex; flex-direction: row; padding-right: 20px;">
                 <p>
-                Cars and computers go hand in hand these days and in the not-so-distant-future, cars <span style="font-style: italic;">will be</span> computers.  As a developer with a wealth of automotive knowledge, I seek to position myself at the forefront of such an intersection.  I hope to work with innovative, free-thinking, dedicated and diverse individuals who hold progress and global awareness as some of their core values.  Ready to get started?  I'd love to hear from you.
-                </p>                               
+                    Welcome and thanks for stopping by! Here you will find examples of my most recent work, but first, allow me to introduce myself. I am a full stack JavaScript web developer and simply put, I build web applications. Currently enrolled in an in-depth MERN bootcamp at the University of Central Florida, I've been supremely focused on advancing my understanding of everything from HTML and CSS to MongoDB, Apollo and mySQL.
+                </p>
+                <img style="margin-top: 20px;" id="profilePic" src="Assets/bw-self.jpg" alt="craig-putzstuck-profile-picture">
             </div>
-        </section>
-        <br>
-        <section>
-            <div class="headings">
-                <h1 id="work">Work</h1>
-            </div>
-            <div id="gridImages">
-                <div class="grid">
-                    <div id="image1a">
-                        <a href="https://outta-touch.herokuapp.com/" target="_blank">
-                        <img src="Assets/outta-touch-app.jpg" alt="outta touch app"></a>
-                        <div class="gitRepo" style="bottom: 80%; left: 20px;">
-                            <h2><a href="https://github.com/argounova/outta-touch" target="_blank">GitHub Repository</a></h2>
-                        </div>
-                    </div>
-                    <div id="image1b">
-                        <img src="Assets/bw-outta-touch-app.jpg" alt="black and white outta touch app">
-                    </div>
-                    <div id="image2a">
-                        <a href="https://peaceful-escarpment-11973.herokuapp.com/" target="_blank">
-                        <img src="Assets/mtg-project-two-screenshot.jpg" alt="magic: the gathering application screen shot"></a>
-                        <div class="gitRepo" style="bottom: 55%; left: 20px;">
-                            <h2><a href="https://github.com/HammontreeWebDev/MTGpp" target="_blank">GitHub Repository</a></h2>
-                        </div>
-                    </div>
-                    <div id="image2b">
-                        <img src="Assets/bw-mtg-project-two.jpg" alt="black and white magic: the gathering application screen shot">
-                    </div>
-                    <div id="image3a">
-                        <a href="https://argounova.github.io/password-generator/" target="_blank">
-                        <img src="Assets/password-generator-screenshot.jpg" alt="password-generator-screenshot"></a>
-                        <div class="gitRepo" style="bottom: 30%; left: 20px;">
-                            <h2><a href="https://github.com/argounova/password-generator" target="_blank">GitHub Repository</a></h2>
-                        </div>
-                    </div>
-                    <div id="image3b">
-                        <img src="Assets/bw-password-generator.jpg" alt="password-generator-screenshot">
-                    </div>
-                    <div id="image4a">
-                        <a href="https://argounova.github.io/day-planner/" target="_blank">
-                        <img src="Assets/work-day-scheduler-screenshot.jpg" alt="work-day-scheduler-screenshot"></a>
-                        <div class="gitRepo" style="bottom: 30%; left: 51%px;">
-                            <h2><a href="https://github.com/argounova/day-planner" target="_blank">GitHub Repository</a></h2>
-                        </div>
-                    </div>
-                    <div id="image4b">
-                        <img src="Assets/bw-workday-scheduler.jpg" alt="work-day-scheduler-screenshot">
-                    </div>
-                    <div id="image5a">
-                        <a href="https://argounova.github.io/code-quiz/" target="_blank">
-                        <img src="Assets/coding-quiz-screenshot.jpg" alt="coding-quiz-screenshot"></a>
-                        <div class="gitRepo" style="bottom: 5%; left: 20px;">
-                            <h2><a href="https://github.com/argounova/code-quiz" target="_blank">GitHub Repository</a></h2>
-                        </div>
-                    </div>
-                    <div id="image5b">
-                        <img src="Assets/bw-coding-quiz.jpg" alt="coding-quiz-screenshot">
+            <p>
+            Cars and computers go hand in hand these days and in the not-so-distant-future, cars <span style="font-style: italic;">will be</span> computers.  As a developer with a wealth of automotive knowledge, I seek to position myself at the forefront of such an intersection.  I hope to work with innovative, free-thinking, dedicated and diverse individuals who hold progress and global awareness as some of their core values.  Ready to get started?  I'd love to hear from you.
+            </p>                               
+        </div>
+    </section>
+    <br>
+    <section>
+        <div class="headings">
+            <h1 id="work">Work</h1>
+        </div>
+        <div id="gridImages">
+            <div class="grid">
+                <div id="image1a">
+                    <a href="https://outta-touch.herokuapp.com/" target="_blank">
+                    <img src="Assets/outta-touch-app.jpg" alt="outta touch app"></a>
+                    <div class="gitRepo" style="bottom: 80%; left: 20px;">
+                        <h2><a href="https://github.com/argounova/outta-touch" target="_blank">GitHub Repository</a></h2>
                     </div>
                 </div>
+                <div id="image1b">
+                    <img src="Assets/bw-outta-touch-app.jpg" alt="black and white outta touch app">
+                </div>
+                <div id="image2a">
+                    <a href="https://peaceful-escarpment-11973.herokuapp.com/" target="_blank">
+                    <img src="Assets/mtg-project-two-screenshot.jpg" alt="magic: the gathering application screen shot"></a>
+                    <div class="gitRepo" style="bottom: 55%; left: 20px;">
+                        <h2><a href="https://github.com/HammontreeWebDev/MTGpp" target="_blank">GitHub Repository</a></h2>
+                    </div>
+                </div>
+                <div id="image2b">
+                    <img src="Assets/bw-mtg-project-two.jpg" alt="black and white magic: the gathering application screen shot">
+                </div>
+                <div id="image3a">
+                    <a href="https://argounova.github.io/password-generator/" target="_blank">
+                    <img src="Assets/password-generator-screenshot.jpg" alt="password-generator-screenshot"></a>
+                    <div class="gitRepo" style="bottom: 30%; left: 20px;">
+                        <h2><a href="https://github.com/argounova/password-generator" target="_blank">GitHub Repository</a></h2>
+                    </div>
+                </div>
+                <div id="image3b">
+                    <img src="Assets/bw-password-generator.jpg" alt="password-generator-screenshot">
+                </div>
+                <div id="image4a">
+                    <a href="https://argounova.github.io/day-planner/" target="_blank">
+                    <img src="Assets/work-day-scheduler-screenshot.jpg" alt="work-day-scheduler-screenshot"></a>
+                    <div class="gitRepo" style="bottom: 30%; left: 51%px;">
+                        <h2><a href="https://github.com/argounova/day-planner" target="_blank">GitHub Repository</a></h2>
+                    </div>
+                </div>
+                <div id="image4b">
+                    <img src="Assets/bw-workday-scheduler.jpg" alt="work-day-scheduler-screenshot">
+                </div>
+                <div id="image5a">
+                    <a href="https://argounova.github.io/code-quiz/" target="_blank">
+                    <img src="Assets/coding-quiz-screenshot.jpg" alt="coding-quiz-screenshot"></a>
+                    <div class="gitRepo" style="bottom: 5%; left: 20px;">
+                        <h2><a href="https://github.com/argounova/code-quiz" target="_blank">GitHub Repository</a></h2>
+                    </div>
+                </div>
+                <div id="image5b">
+                    <img src="Assets/bw-coding-quiz.jpg" alt="coding-quiz-screenshot">
+                </div>
             </div>
-        </section>
-        <br>
-    </main>
+        </div>
+    </section>
+    <br>
+</main>
 <footer>
     <br>
     <div id="contactFooter">
