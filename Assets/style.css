@@ -1,9 +1,11 @@
+:root{
 /* Color Theme Swatches in Hex */
-.The-Mountain-and-the-Photographer-1-hex { color: #D9D9D9; }
-.The-Mountain-and-the-Photographer-2-hex { color: #A6A6A6; }
-.The-Mountain-and-the-Photographer-3-hex { color: #595959; }
-.The-Mountain-and-the-Photographer-4-hex { color: #262626; }
-.The-Mountain-and-the-Photographer-5-hex { color: #0D0D0D; }
+--hex1: #D9D9D9;
+--hex2: #A6A6A6;
+--hex3: #595959;
+--hex4: #262626;
+--hex5: #0D0D0D;
+}
 
 body {
     min-height: 100vh;
@@ -220,6 +222,19 @@ nav a {
     background-color: rgba(13, 13, 13, 0.55);
     color: rgba(217, 217, 217, 0.75);
     padding: 8px
+}
+
+.custom-modal {
+    background: linear-gradient(90deg, rgba(166,166,166,1) 0%, rgba(217,217,217,1) 15%, rgba(217,217,217,1) 85%, rgba(166,166,166,1) 100%);
+    font-family: 'Raleway', sans-serif;
+}
+
+.contactCard input {
+    margin: 15px 0px;
+}
+
+.btn-dark {
+    width: 100%;
 }
 
 .gitRepo {
