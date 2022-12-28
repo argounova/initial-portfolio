@@ -73,15 +73,16 @@ $('#btn-formSent').on('click', function() {
 function formSubmit(e) {
   e.preventDefault();
   emailjs.init('ZElOBNy_cU2ZofiP0');
-  console.log(this);
   this.contact_number.value = Math.random() * 100000 | 0;
   emailjs.sendForm('service_peaz7nq', 'template_iuipk7c', this)
     .then(function(response) {
-      $('#formSent').modal('show');
-      console.log('Email sent', response.status, response.text);
+        $('#contactModal').modal('hide');
+        $('#formSent').modal('show');
+        console.log('Email sent', response.status, response.text);
     }, function(error) {
-      $('#formFail').modal('show');
-      console.log('Email failed to send...', error);
+        $('#contactModal').modal('hide');
+        $('#formFail').modal('show');
+        console.log('Email failed to send...', error);
     });
 }
 
